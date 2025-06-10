@@ -7,6 +7,7 @@ Add client-side form validation using JavaScript for login and registration form
 - HTML
 - JavaScript (Form validation)
 
+
 ## Features
 - Email format check
 - Password rules

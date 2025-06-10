@@ -7,6 +7,7 @@ Enhance the UI of the shopping cart using Bootstrap for responsiveness.
 - HTML
 - Bootstrap 5
 
+
 ## Features
 - Responsive grid and cards
 - Navbar and styled buttons

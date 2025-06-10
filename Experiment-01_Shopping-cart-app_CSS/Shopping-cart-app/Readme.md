@@ -90,6 +90,7 @@ This project focuses on building the foundational frontend of a responsive web a
 
 Feel free to fork this repository, open issues, or submit pull requests if you have suggestions for improvements or bug fixes.
 
+
 ## License
 
 This project is open-source and available under the [MIT License](LICENSE-optional-if-you-add-one).
