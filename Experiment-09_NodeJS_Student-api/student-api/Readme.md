@@ -67,6 +67,168 @@ SAMPLE OUTPUT
   }
 ]
 
+# 🔁 Experiment 9: Express CRUD API
 
-LICENSE
-This project is licensed under the MIT License.
+## Objective
+Create an Express server to perform CRUD on student data.
+
+## Technologies Used
+- Node.js
+- Express
+- Postman
+
+## Features
+- RESTful API (GET, POST, PUT, DELETE)
+
+## Steps to Execute
+1. Run: `npm install express`
+2. Start server: `node server.js`
+3. Test with Postman
+
+## Folder Contents
+- `server.js`: REST endpoints
+
+
+# Express.js REST API for Student Data (CRUD)
+
+This project implements a simple RESTful API using the Express.js framework for Node.js. It allows you to perform basic CRUD (Create, Read, Update, Delete) operations on a collection of student data. For simplicity, the data is stored in memory (an array of JavaScript objects) and is not persistent across server restarts.
+
+## Features
+
+* **RESTful Endpoints:**
+    * `GET /api/students`: Retrieve a list of all students.
+    * `GET /api/students/:id`: Retrieve a single student by their unique ID.
+    * `POST /api/students`: Add a new student record.
+    * `PUT /api/students/:id`: Update an existing student record by ID.
+    * `DELETE /api/students/:id`: Delete a student record by ID.
+* **JSON Support:** Handles JSON request bodies and sends JSON responses.
+* **In-Memory Data:** Student data is stored in an array, suitable for demonstration purposes.
+
+## Technologies Used
+
+* Node.js
+* Express.js (web application framework)
+* Postman (or any API testing tool) for testing endpoints
+
+## Setup and Running
+
+1.  **Prerequisites:**
+    * Node.js (LTS version recommended) and npm (Node Package Manager) installed on your system.
+    * Postman (or similar API testing tool) installed for testing the API endpoints.
+
+2.  **Clone the repository (or create manually):**
+    ```bash
+    git clone <repository_url>
+    cd express-student-api # or your project directory name
+    ```
+    If creating manually, create a directory and then create `server.js` within it.
+
+3.  **Initialize Project and Install Dependencies:**
+    Open your terminal or command prompt, navigate to the project root directory, and run:
+    ```bash
+    npm init -y      # Initializes a package.json file
+    npm install express # Installs the Express.js framework
+    ```
+
+4.  **Create `server.js`:**
+    Create a file named `server.js` in the project root and paste the provided conceptual code.
+
+5.  **Start the API Server:**
+    In your terminal, run:
+    ```bash
+    node server.js
+    ```
+    You should see a message indicating that the Express API is running on `http://localhost:3000`.
+
+## API Endpoints and Usage (with Postman)
+
+The API server will be running on `http://localhost:3000`. Use Postman to send requests to the following endpoints:
+
+### 1. Get All Students
+
+* **Method:** `GET`
+* **URL:** `http://localhost:3000/api/students`
+* **Expected Response (200 OK):** An array of student objects.
+    ```json
+    [
+        {"id": 1, "name": "Alice Smith", "age": 20, "major": "Computer Science"},
+        {"id": 2, "name": "Bob Johnson", "age": 22, "major": "Electrical Engineering"}
+    ]
+    ```
+
+### 2. Get Student by ID
+
+* **Method:** `GET`
+* **URL:** `http://localhost:3000/api/students/:id` (e.g., `http://localhost:3000/api/students/1`)
+* **Expected Response (200 OK):** A single student object.
+    ```json
+    {"id": 1, "name": "Alice Smith", "age": 20, "major": "Computer Science"}
+    ```
+* **Error Response (404 Not Found):** If ID does not exist.
+    ```json
+    {"message": "Student not found"}
+    ```
+
+### 3. Create a New Student
+
+* **Method:** `POST`
+* **URL:** `http://localhost:3000/api/students`
+* **Headers:** `Content-Type: application/json`
+* **Body (raw JSON):**
+    ```json
+    {
+        "name": "David Lee",
+        "age": 23,
+        "major": "Chemistry"
+    }
+    ```
+* **Expected Response (201 Created):** The newly created student object including its assigned ID.
+    ```json
+    {"id": 4, "name": "David Lee", "age": 23, "major": "Chemistry"}
+    ```
+* **Error Response (400 Bad Request):** If required fields are missing.
+    ```json
+    {"message": "Name, age, and major are required."}
+    ```
+
+### 4. Update an Existing Student
+
+* **Method:** `PUT`
+* **URL:** `http://localhost:3000/api/students/:id` (e.g., `http://localhost:3000/api/students/1`)
+* **Headers:** `Content-Type: application/json`
+* **Body (raw JSON):**
+    ```json
+    {
+        "name": "Alice Johnson Smith",
+        "major": "Advanced Computer Science"
+    }
+    ```
+* **Expected Response (200 OK):** The updated student object.
+    ```json
+    {"id": 1, "name": "Alice Johnson Smith", "age": 20, "major": "Advanced Computer Science"}
+    ```
+* **Error Response (404 Not Found):** If ID does not exist.
+    ```json
+    {"message": "Student not found"}
+    ```
+
+### 5. Delete a Student
+
+* **Method:** `DELETE`
+* **URL:** `http://localhost:3000/api/students/:id` (e.g., `http://localhost:3000/api/students/2`)
+* **Expected Response (200 OK):** A success message.
+    ```json
+    {"message": "Student deleted successfully"}
+    ```
+* **Error Response (404 Not Found):** If ID does not exist.
+    ```json
+    {"message": "Student not found"}
+    ```
+
+## Project Structure
+
+.
+├── server.js               # Main Express application file with API routes
+├── package.json            # Project metadata and dependencies
+├── package-lock.json       # Records exact dependency versions
+└── README.md

@@ -1,71 +1,83 @@
-PROGRAM 8 – Custom Server and Core Modules in Node.js
+# ⚙️ Experiment 8: Custom Node.js Server
 
-AIM  
-To create a custom HTTP server using Node.js and explore core built-in modules such as `os`, `path`, and `events`.
+## Objective
+Create a basic Node.js server using core modules.
 
-DESCRIPTION  
-This experiment demonstrates how to build a simple HTTP server using Node.js without any external frameworks. It also showcases how to interact with system-level information, file paths, and custom events using Node.js core modules.The solution uses Node.js for server-side programming and the built-in `http`, `os`, `path`, and `events` modules to explore their functionalities in a backend environment. This helps in understanding how Node.js handles server creation and system-level operations using its standard library.
+## Technologies Used
+- Node.js (HTTP module)
 
-PROJECT STRUCTURE  
-node-server-demo/
-│
-├── server.js # Creates a basic HTTP server
-├── osInfo.js # Displays OS information using 'os' module
-├── pathDemo.js # Demonstrates path operations using 'path' module
-├── eventDemo.js # Emits and listens for events using 'events' module
-├── README.md # Project documentation
+## Features
+- Respond to GET and POST requests
 
-IMAGES
-pathDemo.js
- 
-eventDemo.js
- 
-osInfo.js 
+## Steps to Execute
+1. Run: `node server.js`
+2. Open: http://localhost:3000
 
-Server.js
- 
-MODULES USED  
-•	http – To create the web server.  
-•	os – To fetch system-related data such as platform, memory, and CPU info.  
-•	path – To handle file and directory paths.  
-•	events – To handle event-driven architecture by emitting and responding to events.
-
-INSTALLATION & SETUP  
-PREREQUISITES  
-•	Node.js installed on your system  
-•	Visual Studio Code (VS Code) or any preferred IDE  
-
-STEPS TO RUN THE PROJECT  
-1. Open terminal and navigate to the project directory:
-cd node-server-demo
+## Folder Contents
+- `server.js`: Custom server logic
 
 
-2. Open the project in VS Code:
-code .
+# Node.js Custom HTTP Server & Core Modules Exploration
 
+This project demonstrates building a basic HTTP server using Node.js's built-in `http` module and explores other fundamental Node.js core modules such as `fs` (File System), `os` (Operating System), `path`, and `events`.
 
-3. Run each file individually to test different modules:
-node server.js
-To start the HTTP server:
+## Features
 
-Then open your browser and visit:
-http://localhost:3000
+* **Custom HTTP Server:** Built from scratch using the `http` module, handling various routes.
+* **Static File Serving:** Serves `index.html` and `about.html` from the `public` directory using the `fs` (File System) module.
+* **Operating System Information:** An endpoint (`/os-info`) that provides detailed information about the server's operating system using the `os` module (e.g., hostname, platform, memory usage).
+* **Path Manipulation:** An endpoint (`/path-demo`) illustrating functions from the `path` module for joining paths, parsing paths, and extracting file extensions.
+* **Custom Event Handling:** Demonstrates the `events` module by creating a custom event emitter that logs server activity to the console and to a persistent log file (`logs/server_logs.txt`).
 
-node osInfo.js
-To run OS module demo:
+## Technologies Used
 
-node pathDemo.js
-To run Path module demo:
+* Node.js
+* Built-in Node.js modules: `http`, `fs`, `os`, `path`, `events`
 
-node eventDemo.js
-To run Events module demo:
+## Setup and Running
 
+1.  **Prerequisites:**
+    * Node.js (LTS version recommended) installed on your system. You can download it from [nodejs.org](https://nodejs.org/).
 
-OUTPUT EXAMPLES  
-•	server.js – Displays a web page with "Hello from Node.js custom server!"  
-•	osInfo.js – Outputs platform, memory, uptime, and user info  
-•	pathDemo.js – Shows file name, extension, directory, and path joining  
-•	eventDemo.js – Logs "Hello, Alice!" using a custom event
+2.  **Clone the repository (or create manually):**
+    ```bash
+    git clone <repository_url>
+    cd nodejs-custom-server # or your project directory name
+    ```
+    If creating manually, create a directory and then create `server.js`, `public/index.html`, `public/about.html`, and `logs/` folder.
 
-LICENSE  
-This project is licensed under the MIT License.
+3.  **Install Dependencies:**
+    This project uses only Node.js core modules, so `npm install` is not strictly necessary for dependencies, but it's good practice if you have a `package.json` (created via `npm init -y`).
+
+4.  **Start the Server:**
+    Open your terminal or command prompt, navigate to the project root directory, and run:
+    ```bash
+    node server.js
+    ```
+    You should see the message: `Server running on http://localhost:3000/`.
+
+## Usage
+
+Once the server is running, open your web browser and navigate to the following URLs:
+
+* **`http://localhost:3000/`**: Access the main home page (`index.html`).
+* **`http://localhost:3000/about`**: View the about page (`about.html`).
+* **`http://localhost:3000/os-info`**: Get JSON formatted information about the server's operating system.
+* **`http://localhost:3000/path-demo`**: See JSON formatted output demonstrating `path` module functionalities.
+
+**Important:**
+
+* **Console Output:** Observe the terminal where you started the server. You will see "LOG EVENT" messages indicating requests and server activity.
+* **Log File:** A file named `server_logs.txt` will be created inside the `logs/` directory (if it doesn't exist) and will continuously record server events.
+
+## Project Structure
+
+.
+├── server.js               # Main server logic and module demonstrations
+├── public/                 # Directory for static HTML files
+│   ├── index.html          # Home page
+│   └── about.html          # About page
+├── logs/                   # Directory for server log files
+│   └── server_logs.txt     # Log file (created/appended by the server)
+├── package.json            # Project metadata (if npm init was used)
+└── README.md
