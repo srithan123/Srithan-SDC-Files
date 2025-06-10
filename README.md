@@ -1,5 +1,4 @@
 ﻿# Srithan-SDC-Files
-
 # 🚀 Skill Development Course (CS409PC)
 
 Welcome to the **Skill Development Course (CS409PC)** repository! This course is part of the undergraduate curriculum designed to equip students with hands-on technical skills in modern software development using frontend and backend technologies.
@@ -64,3 +63,7 @@ Each experiment folder contains:
 3. For Node/Java-based projects, ensure dependencies are installed.
 4. Run the code using a terminal, IDE, or browser.
 
+# Srithan-SDC-Files
+# Srija-SDC-Files
+# Srija-SDC-Files
+# Srija-SDC-Files
