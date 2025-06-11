@@ -63,7 +63,4 @@ Each experiment folder contains:
 3. For Node/Java-based projects, ensure dependencies are installed.
 4. Run the code using a terminal, IDE, or browser.
 
-# Srithan-SDC-Files
-# Srija-SDC-Files
-# Srija-SDC-Files
-# Srija-SDC-Files
+
