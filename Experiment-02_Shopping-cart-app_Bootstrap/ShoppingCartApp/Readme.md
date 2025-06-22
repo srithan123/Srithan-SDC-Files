@@ -59,6 +59,11 @@ This project builds upon the foundation of Experiment 1 by re-implementing the r
 * JavaScript (for basic Bootstrap component functionality, e.g., navbar toggler)
 
 ## Setup and Running
+![alt text](images/running.png)
+
+![alt text](images/orders.png)
+
+![alt text](images/payment.png)
 
 1.  **Clone the Repository (or download the project files):**
     ```bash
