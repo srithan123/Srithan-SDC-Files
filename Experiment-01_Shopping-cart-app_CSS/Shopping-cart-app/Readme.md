@@ -69,7 +69,7 @@ This project focuses on building the foundational frontend of a responsive web a
     * Navigate to the project directory.
     * Open `index.html` (or `registration.html`, `login.html`, `catalog.html`, `cart.html` directly) in your preferred web browser.
     * **No server is required** as this is a purely frontend (HTML/CSS) application.
-
+![alt text](<images/Screenshot (126).png>)
 ## Project Structure
 
 .
