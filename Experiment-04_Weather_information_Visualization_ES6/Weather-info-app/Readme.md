@@ -18,7 +18,12 @@ Create a weather app using modern JavaScript features to fetch live data from Op
 1. Get your API key from https://openweathermap.org/api.
 2. Insert API key in `weather.js`.
 3. Open `index.html` in browser.
+![alt text](images/running.png)
 
+
+
+
+![alt text](images/output.png)
 ## Folder Contents
 - `index.html`: UI layout
 - `weather.js`: Fetch & render data
