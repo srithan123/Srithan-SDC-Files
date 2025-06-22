@@ -65,6 +65,7 @@ This project builds upon the foundation of Experiment 1 by re-implementing the r
 
 ![alt text](images/payment.png)
 
+![alt text](images/terminal.png)
 1.  **Clone the Repository (or download the project files):**
     ```bash
     git clone [https://github.com/your-username/Experiment-02_Shopping-cart-app_Bootstrap.git](https://github.com/your-username/Experiment-02_Shopping-cart-app_Bootstrap.git)
