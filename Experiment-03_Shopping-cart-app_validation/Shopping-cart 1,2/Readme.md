@@ -16,7 +16,7 @@ Add client-side form validation using JavaScript for login and registration form
 ## Steps to Execute
 1. Open `index.html` in a browser.
 2. Try submitting invalid forms and observe alerts.
-
+![alt text](../images/main_page.png)
 ## Folder Contents
 - `index.html`: Login/Register forms
 - `validate.js`: Validation logic
