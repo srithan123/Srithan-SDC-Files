@@ -13,7 +13,7 @@ Build a shopping cart system with registration, login, catalog, and cart pages u
 - Product catalog
 - Add to cart functionality
 - Responsive design
-![alt text](<images/command panel.png>)
+![alt text](<images/command_panel.png>)
 ## Steps to Execute
 1. Open `index.html` in any modern browser.
 2. Browse the catalog, register/login (static), and add items to the cart.
