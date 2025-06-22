@@ -34,12 +34,15 @@ README.md for Experiment 1:
 
 Markdown
 
+![alt text](images/login.png)
+
+
 # Experiment 1: Responsive Shopping Cart Application (CSS3, Flexbox, Grid)
 
 This project focuses on building the foundational frontend of a responsive web application for an e-commerce shopping cart. The application includes essential pages like Registration, Login, Product Catalog, and Shopping Cart. The primary objective is to demonstrate proficiency in modern CSS3 features, particularly **Flexbox** and **CSS Grid**, to achieve a responsive and adaptable layout across various screen sizes.
 
 ## Features
-
+![alt text](images/open.png)
 * **Registration Page**: Allows new users to sign up.
 * **Login Page**: Enables existing users to log in.
 * **Product Catalog Page**: Displays a list of products, showcasing item details.
@@ -49,12 +52,12 @@ This project focuses on building the foundational frontend of a responsive web a
     * Utilizes **CSS Flexbox** for one-dimensional alignment and distribution of items (e.g., navigation bars, form elements, product cards within a row).
     * Utilizes **CSS Grid** for two-dimensional layout structures (e.g., overall page layout, complex catalog grids).
 * **Semantic HTML5**: Uses appropriate HTML5 elements for better structure and accessibility.
-
+![alt text](images/registration.png)
 ## Technologies Used
-
+![alt text](<images/shopping cart.png>)
 * HTML5
 * CSS3 (with strong emphasis on Flexbox and Grid)
-
+![alt text](<images/user profile.png>)
 ## Setup and Running
 
 1.  **Clone the Repository (or download the project files):**
