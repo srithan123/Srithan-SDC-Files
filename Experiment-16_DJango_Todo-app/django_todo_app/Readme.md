@@ -8,6 +8,7 @@ This experiment demonstrates how to build a server-rendered TODO application usi
 
 PROJECT STRUCTURE  
 
+
 django_todo_app/
 │
 ├── todo_project/ # Project settings folder
