@@ -140,7 +140,10 @@ This project demonstrates various session tracking mechanisms crucial for mainta
 5.  **Run the Application:**
     * Start your Tomcat server from your IDE (usually by clicking the 'Run' or 'Debug' button associated with your Tomcat configuration).
     * Open your web browser and navigate to: `http://localhost:8080/SessionTrackingDemo/` (replace `SessionTrackingDemo` with your actual application context path).
-
+![alt text](images/loginserver_steps.png)
+![alt text](images/out1.png)
+![alt text](images/out2.png)
+![alt text](images/out3.png)
 ## Usage
 
 ### Cookie Demonstration

@@ -139,7 +139,7 @@ This project implements a simple RESTful API using the Express.js framework for 
     node server.js
     ```
     You should see a message indicating that the Express API is running on `http://localhost:3000`.
-
+![alt text](../images/error.png)
 ## API Endpoints and Usage (with Postman)
 
 The API server will be running on `http://localhost:3000`. Use Postman to send requests to the following endpoints:

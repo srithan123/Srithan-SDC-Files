@@ -78,6 +78,10 @@ This project integrates the frontend of the shopping cart application (from Expe
     cd Experiment-06_Servlet-Based-Controller
     ```
 
+Experiment-06_Servlet-Based-Controller/images/2.png
+Experiment-06_Servlet-Based-Controller/images/1.png
+Experiment-06_Servlet-Based-Controller/images/servlet.png
+
 2.  **Copy Frontend Files:**
     * Copy the `html`, `css`, `js` files (and any `images/` or `lib/` for Bootstrap) from your `Experiment-01`, `Experiment-02`, and `Experiment-03` projects into the `src/main/webapp/` directory of this project. Ensure form `action` attributes in your HTML/JSP point to the correct servlet URLs (e.g., `action="register"`, `action="login"`).
 

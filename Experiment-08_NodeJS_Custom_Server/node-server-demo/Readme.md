@@ -13,6 +13,10 @@ Create a basic Node.js server using core modules.
 1. Run: `node server.js`
 2. Open: http://localhost:3000
 
+![alt text](<../images/out and running.png>)
+
+![alt text](../images/out1.png)
+
 ## Folder Contents
 - `server.js`: Custom server logic
 
