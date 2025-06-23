@@ -45,6 +45,10 @@ Use Django templating tags to insert weather data into the HTML and JavaScript.
 4.Run the Server
 python manage.py runserver
 
+![alt text](<../images/Screenshot (136).png>)
+![alt text](<../images/Screenshot (137).png>)
+![alt text](<../images/Screenshot 2025-06-23 170344.png>)
+
 5.Visit in Browser
 Open your browser and go to:
 http://127.0.0.1:8000/

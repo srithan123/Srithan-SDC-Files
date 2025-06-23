@@ -78,9 +78,9 @@ This project extends the student data REST API (from Experiment 9) by implementi
     node server.js
     ```
     You should see messages indicating the server is running and dummy passwords are hashed.
-
+![alt text](<../images/Screenshot (135).png>)
 ## API Endpoints and Usage (with Postman)
-
+![alt text](<../images/Screenshot 2025-06-23 170344.png>)
 The API server will be running on `http://localhost:3000`.
 
 ### 1. User Login (Obtain JWT)

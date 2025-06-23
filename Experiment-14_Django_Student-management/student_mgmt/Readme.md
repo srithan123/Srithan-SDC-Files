@@ -5,6 +5,17 @@ To develop a student management system backend using Django, allowing users to r
 
 DESCRIPTION  
 This experiment demonstrates how to build a basic web application using Django. The project implements user authentication (register and login), and basic navigation through pages like Home, About, and Contact. It showcases Django concepts like URL routing, views, templates, and static file management. This project is ideal for beginners to learn the fundamentals of Django web development including template rendering, view functions, and project structure.
+![alt text](../images/step-1.jpg)
+![alt text](../images/step-2.jpg)
+![alt text](../images/step-3.jpg)
+![alt text](../images/step-4.jpg)
+![alt text](../images/step-5.jpg)
+![alt text](../images/step-6.jpg)
+![alt text](../images/step-7.jpg)
+![alt text](../images/step-8.jpg)
+![alt text](../images/step-9.jpg)
+![alt text](../images/step-10.jpg)
+![alt text](../images/step-11.jpg)
 
 PROJECT STRUCTURE  
 student_mgmt/
